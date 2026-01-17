@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1768679033595,
+    "name": "Dhruv Sharma",
+    "email": "dhruvpandit499@gmail.com",
+    "jobId": "ml-research-scientist",
+    "jobTitle": "ML Research Scientist",
+    "company": "Vritan AI Labs",
+    "authorization": "US Citizen",
+    "resumeFile": "ac85f1cd14d569daeda51098d362596b",
+    "appliedAt": "2026-01-17T19:43:53.595Z"
+  },
+  {
+    "id": 1768679542410,
+    "name": "Dhruv Sharma",
+    "email": "dhruv#$%@gmail.com",
+    "jobId": "senior-software-engineer",
+    "jobTitle": "Senior Software Engineer",
+    "company": "Vritan Technologies",
+    "authorization": null,
+    "resumeFile": "60b54e35ec3fd25c982937dde4490f3b",
+    "appliedAt": "2026-01-17T19:52:22.410Z"
+  }
+]

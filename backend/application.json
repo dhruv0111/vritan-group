@@ -1,0 +1,35 @@
+[
+  {
+    "id": 1726354812345,
+    "name": "Aarav Sharma",
+    "email": "aarav.sharma@gmail.com",
+    "jobId": "senior-software-engineer",
+    "jobTitle": "Senior Software Engineer",
+    "company": "Vritan Technologies",
+    "authorization": null,
+    "resumeFile": "resume-1726354812345.pdf",
+    "appliedAt": "2026-01-18T09:45:12.345Z"
+  },
+  {
+    "id": 1726354928761,
+    "name": "Emily Johnson",
+    "email": "emily.johnson@outlook.com",
+    "jobId": "ml-research-scientist",
+    "jobTitle": "ML Research Scientist",
+    "company": "Vritan AI Labs",
+    "authorization": "US Citizen",
+    "resumeFile": "resume-1726354928761.pdf",
+    "appliedAt": "2026-01-18T10:02:08.761Z"
+  },
+  {
+    "id": 1726355093348,
+    "name": "Rahul Mehta",
+    "email": "rahul.mehta@yahoo.com",
+    "jobId": "investment-analyst",
+    "jobTitle": "Investment Analyst",
+    "company": "Vritan Capital",
+    "authorization": null,
+    "resumeFile": "resume-1726355093348.pdf",
+    "appliedAt": "2026-01-18T10:21:33.348Z"
+  }
+]
