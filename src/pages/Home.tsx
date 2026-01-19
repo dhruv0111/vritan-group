@@ -1,6 +1,6 @@
 import HeroSection from "../components/home/HeroSection";
 import PhilosophySection from "../components/home/PhilosophySection";
-import CompaniesSection from "../components/home/CompaniesSection";
+import CompaniesSection from "../components/home/AgentServicesSection";
 import AIPoweredStrip from "../components/home/AIPoweredStrip";
 import VisionSection from "../components/home/VisionSection";
 import CareersSection from "../components/home/CareersSection";

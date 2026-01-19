@@ -6,13 +6,15 @@ export default function AIPoweredStrip() {
 
       <div className="max-w-5xl mx-auto text-center">
         <h2 className="text-3xl md:text-4xl font-bold text-white mb-6">
-          Powered by Intelligence. Driven by Automation.
+          Not Just Chatbots. Real AI Agents.
         </h2>
 
         <p className="text-slate-300 text-lg leading-relaxed max-w-3xl mx-auto">
-          We embed AI and automation across our ecosystem to accelerate growth,
-          efficiency, and decision-making.
+          Our AI agents don’t just respond to questions.
+          They connect with your systems, follow business rules,
+          and take actions — securely and reliably.
         </p>
+
       </div>
     </section>
   );

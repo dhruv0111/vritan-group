@@ -14,6 +14,8 @@ import Jobs from './pages/Jobs';
 import JobDetail from './pages/JobDetails';
 import JobApply from './pages/JobApply';
 import ApplicationSuccess from './pages/ApplicationSucess';
+import AIAgents from './pages/AIAgents';
+import CaseStudies from './pages/CaseStudies';
 
 function ScrollToTop() {
   const { pathname } = useLocation();
@@ -36,6 +38,9 @@ function App() {
           <Route path="/about" element={<About />} />
           <Route path="/companies" element={<Companies />} />
           <Route path="/vision" element={<Vision />} />
+          <Route path="/ai-agents" element={<AIAgents />} />
+          <Route path="/case-studies" element={<CaseStudies />} />
+
           <Route path="/leadership" element={<Leadership />} />
           <Route path="/careers" element={<Careers />} />
           <Route path="/jobs" element={<Jobs />} />

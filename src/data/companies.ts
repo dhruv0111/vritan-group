@@ -7,25 +7,25 @@ export interface Company {
   icon: LucideIcon;
 }
 
-export const companies: Company[] = [
+const services = [
   {
-    name: 'Vritan Technologies',
-    description: 'AI software, cloud platforms, and enterprise systems.',
-    icon: Building2,
+    name: 'Customer Support AI Agent',
+    description:
+      '24/7 AI agents that handle customer queries across chat, email, and WhatsApp.',
   },
   {
-    name: 'Vritan Labs',
-    description: 'Research and emerging technology innovation.',
-    icon: Brain,
+    name: 'Sales & Lead Qualification Agent',
+    description:
+      'AI agents that qualify leads, answer product questions, and update CRM automatically.',
   },
   {
-    name: 'Vritan Capital',
-    description: 'Strategic investments and long-term capital.',
-    icon: TrendingUp,
+    name: 'Internal Operations Agent',
+    description:
+      'Automate HR queries, document search, reporting, and internal workflows.',
   },
   {
-    name: 'Vritan Media',
-    description: 'Brand, digital, and creative solutions.',
-    icon: BookOpen,
+    name: 'Custom Business AI Agent',
+    description:
+      'Tailor-made AI agents built around your data, tools, and processes.',
   },
 ];

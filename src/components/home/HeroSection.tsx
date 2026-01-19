@@ -7,94 +7,160 @@ import MotionFade from '../ui/Motion.Fade';
 import AINetwork from '../ui/AINetwork';
 import { usePersonalization } from '../../hooks/usePeronalization';
 
+
 export default function HeroSection() {
-  const titleRef = useRef<HTMLHeadingElement>(null);
-  const subtitleRef = useRef<HTMLParagraphElement>(null);
-
-  useHeroGsap(titleRef, subtitleRef);
-
-  const persona = usePersonalization();
-
-  const headlineMap: Record<string, string> = {
-    investor: 'Building Long-Term Value Through Innovation',
-    developer: 'Engineering the Future with AI',
-    founder: 'Building Enduring Companies',
-    default: 'Building the Future Through Innovation',
-  };
-
   return (
-    <section className="relative pt-40 pb-32 px-6 overflow-hidden bg-white">
-      <AINetwork />
+    <section className="relative pt-40 pb-32 px-6 bg-white overflow-hidden">
+      
+      <div className="max-w-5xl mx-auto text-center">
 
-      {/* Glass container for readability */}
-      <div
-        className="
-          relative z-10
-          max-w-5xl mx-auto text-center
-          bg-white/85 backdrop-blur-sm
-          rounded-2xl shadow-lg
-          px-6 py-10
-          sm:px-8 sm:py-12
-          lg:px-10 lg:py-14
-        "
-      >
-        {/* Scope line */}
-        <p className="text-sm uppercase tracking-widest text-brand-accent mb-6">
-          Technology • AI • Capital • Research
+        <p className="text-xs uppercase tracking-widest text-brand-accent mb-4">
+          AI Agents for Business Automation
         </p>
 
-        <h1
-          ref={titleRef}
-          className="
-            text-4xl sm:text-5xl md:text-6xl lg:text-[4rem]
-            font-extrabold tracking-tight
-            text-gray-900 mb-6
-          "
-        >
-          {headlineMap[persona]}
+        <h1 className="text-4xl md:text-6xl font-extrabold text-slate-900 mb-6">
+          Deploy AI Agents That Work <br className="hidden md:block" />
+          Inside Your Business
         </h1>
 
-        <p
-          ref={subtitleRef}
-          className="
-            text-lg md:text-xl
-            text-gray-600
-            mb-12
-            max-w-3xl mx-auto
-          "
-        >
-          Vritan Group builds AI-driven, future-ready businesses across
-          technology, capital, and digital ecosystems.
+        <p className="text-lg md:text-xl text-slate-600 max-w-3xl mx-auto mb-10">
+          We design and deploy custom AI agents that automate customer support,
+          sales operations, internal workflows, and decision-making — tailored
+          to your business.
         </p>
 
-        <MotionFade>
-              <Link
-                to="/companies"
-                className="
-                  inline-flex items-center justify-center gap-2
-                  min-h-[48px] px-8 py-4
-                  rounded-lg font-semibold
+        <div className="flex justify-center gap-4 flex-wrap">
+          <a
+            href="/contact"
+            className="px-8 py-4 bg-brand-dark text-white rounded-lg
+              hover:bg-brand-darker transition"
+          >
+            Book Free AI Assessment
+          </a>
 
-                  bg-[#0f172a] text-white
-                  shadow-lg shadow-black/20
-
-                  hover:bg-[#020617]
-                  hover:-translate-y-0.5 hover:shadow-xl
-
-                  transition-all duration-300
-                "
-              >
-                <span className="text-white">
-                  Explore Our Companies
-                </span>
-                <ArrowRight className="w-5 h-5 text-white" />
-              </Link>
-
-        </MotionFade>
+          <a
+            href="/ai-agents"
+            className="px-8 py-4 border border-slate-300 rounded-lg
+              hover:bg-slate-50 transition"
+          >
+            Explore AI Agents
+          </a>
+        </div>
       </div>
     </section>
   );
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// export default function HeroSection() {
+//   const titleRef = useRef<HTMLHeadingElement>(null);
+//   const subtitleRef = useRef<HTMLParagraphElement>(null);
+
+//   useHeroGsap(titleRef, subtitleRef);
+
+//   const persona = usePersonalization();
+
+//   const headlineMap: Record<string, string> = {
+//     investor: 'Building Long-Term Value Through Innovation',
+//     developer: 'Engineering the Future with AI',
+//     founder: 'Building Enduring Companies',
+//     default: 'Building the Future Through Innovation',
+//   };
+
+//   return (
+//     <section className="relative pt-40 pb-32 px-6 overflow-hidden bg-white">
+//       <AINetwork />
+
+//       {/* Glass container for readability */}
+//       <div
+//         className="
+//           relative z-10
+//           max-w-5xl mx-auto text-center
+//           bg-white/85 backdrop-blur-sm
+//           rounded-2xl shadow-lg
+//           px-6 py-10
+//           sm:px-8 sm:py-12
+//           lg:px-10 lg:py-14
+//         "
+//       >
+//         {/* Scope line */}
+//         <p className="text-sm uppercase tracking-widest text-brand-accent mb-6">
+//           Technology • AI • Capital • Research
+//         </p>
+
+//         <h1
+//           ref={titleRef}
+//           className="
+//             text-4xl sm:text-5xl md:text-6xl lg:text-[4rem]
+//             font-extrabold tracking-tight
+//             text-gray-900 mb-6
+//           "
+//         >
+//           {headlineMap[persona]}
+//         </h1>
+
+//         <p
+//           ref={subtitleRef}
+//           className="
+//             text-lg md:text-xl
+//             text-gray-600
+//             mb-12
+//             max-w-3xl mx-auto
+//           "
+//         >
+//           Vritan Group builds AI-driven, future-ready businesses across
+//           technology, capital, and digital ecosystems.
+//         </p>
+
+//         <MotionFade>
+//               <Link
+//                 to="/companies"
+//                 className="
+//                   inline-flex items-center justify-center gap-2
+//                   min-h-[48px] px-8 py-4
+//                   rounded-lg font-semibold
+
+//                   bg-[#0f172a] text-white
+//                   shadow-lg shadow-black/20
+
+//                   hover:bg-[#020617]
+//                   hover:-translate-y-0.5 hover:shadow-xl
+
+//                   transition-all duration-300
+//                 "
+//               >
+//                 <span className="text-white">
+//                   Explore Our Companies
+//                 </span>
+//                 <ArrowRight className="w-5 h-5 text-white" />
+//               </Link>
+
+//         </MotionFade>
+//       </div>
+//     </section>
+//   );
+// }
 
 
 

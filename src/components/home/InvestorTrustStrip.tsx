@@ -6,10 +6,10 @@ import capital from '@/assets/logos/capital.svg';
 import research from '@/assets/logos/research.svg';
 
 const logos = [
-  { src: ai, label: 'AI Infrastructure', tooltip: 'Capability Area' },
-  { src: cloud, label: 'Cloud Platforms', tooltip: 'Capability Area' },
-  { src: capital, label: 'Capital Partners', tooltip: 'Capability Area' },
-  { src: research, label: 'Research Networks', tooltip: 'Capability Area' },
+  { src: ai, label: 'AI Infrastructure', tooltip: 'Delivery Capability' },
+  { src: cloud, label: 'Cloud Platforms', tooltip: 'Delivery Capability' },
+  { src: capital, label: 'Capital Partners', tooltip: 'Delivery Capability' },
+  { src: research, label: 'Research Networks', tooltip: 'Delivery Capability' },
 ];
 
 const fadeUp = {
@@ -31,7 +31,8 @@ export default function InvestorTrustStrip() {
           transition={{ duration: 0.6 }}
         >
           <p className="text-xs uppercase tracking-widest text-slate-500 mb-2">
-            Trusted by Leaders, Partners, and Institutions
+            Trusted by Businesses and Delivery Partners
+
           </p>
           <p className="text-sm text-slate-400 mb-12">
             Selected partnerships, internal ventures, and governance standards
@@ -98,9 +99,10 @@ export default function InvestorTrustStrip() {
           viewport={{ once: true }}
           transition={{ duration: 0.6, delay: 0.2 }}
         >
-          <Stat value="4+" label="Companies Built" />
-          <Stat value="10+" label="Years of Experience" />
-          <Stat value="100%" label="Long-Term Focus" />
+          <Stat value="4+" label="AI-Driven Ventures" />
+          <Stat value="10+" label="Years of Engineering Experience" />
+          <Stat value="100%" label="Client-Focused Delivery" />
+
         </motion.div>
 
         {/* Compliance */}
